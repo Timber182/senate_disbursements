@@ -226,7 +226,7 @@ def find_header_index(line_array):
     return header_index
 
 
-def read_pages(start_page, end_page, out_file='senate_data.csv', missing_file='missing_data.json'):
+def read_pages(17, 2725, out_file='senate_data.csv', missing_file='missing_data.json'):
 
     page_file_unfilled = "pages/layout_%s.txt"
     header_index_hash = {}
